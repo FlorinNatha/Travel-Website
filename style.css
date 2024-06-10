@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background:  ;
+    color: black;
+}
+
+header{
+    text-align:left;
+    
+    height: 10vh;
+    background-color: #262626;
+    background-size: cover;
+    background-position: center;
+
+}
+header div h2{
+    margin-top: 5px;
+    color: #fff;
+}
+
+
+
+.container{
+    padding: 10px 10%;
+}
+
+nav ul{
+    display: flex;
+    margin-left: 600px;
+    margin-top: 0;  
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    margin-left: 30px;
+    
+    display: inline-block;
+}
+
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px; /*---underline eka wdina than wachnet yatin--*/
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+/*----------------home-------------*/
+
+#home {
+    background-image: url(images/03\ \ 3\ \ \ iStock_000018614315_indonesialombokbeach.jpg);
+    width: 100%;
+    height: 90vh;
+}
+.header-text{
+   
+    margin-left:50%;
+    font-size: 40px;
+}
+
+
+
+.header-text p span{
+    color: #ff004f;
+    font-style: italic;
+    font-size: 50px;
+    font-display: bold;
+
+}
+
+
+/*------------------destination------------------*/
+
+
+#destinations{
+    background: #033d47;
+    /*background: #020600;*/
+    padding: 50px 0;
+}
+
+
+.destination-items{
+   
+    
+}
+
+.subtitle{
+    color: #fff;
+}
+.d01{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /*----mee grid ekn thmi eka pelat gtte--*/
+    grid-gap: 40px;
+    margin-top: 50px;
+    
+   
+}
+.d02{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /*----mee grid ekn thmi eka pelat gtte--*/
+    grid-gap: 20px;
+    margin-top: 10px;
+}   
+
+.dest-01 img{
+    width: 650px;
+    height: 450px;
+    padding-right: 100px;
+    
+}
+.dest-02 img{
+    width: 650px;
+    height: 450px;
+    padding-left: 10px;
+   
+}
+.dest-03 img{
+    padding-top: 0px;
+    width: 500px;
+    height: 300px;
+   
+}
+.dest-04 img{
+    margin-left: 120px;
+    padding-top: 0px;
+    width: 320px;
+    height: 300px;
+    
+}
+.dest-05 img{
+    padding-left: 50px;
+    padding-top: 0px;
+    width: 400px;
+    height: 300px;
+    
+}
+
+
+
+
+
+
+.destination-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /*----mee grid ekn thmi eka pelat gtte--*/
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.destination{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+
+}
+.destination img{
+    width: 450px;
+    height: 450px;
+    display: block;
+    transition: transform 0.5s;
+}
+.destination:hover img{    /*----mouse eke enkota img eka issenwa---*/
+    transform: scale(1.1);
+}
+
+.layer{
+    background-color: rgba(134, 220, 205, 0.836);
+    width: 100%;
+    height: 450px;
+}
+
+
+
+/*-----------------------About Us--------------------------------------------------------------------------------*/
+
+/*aboutus{
+    #a
+    image: url(images/04\ 3skbaqbal7tk6mo04qu7ckcdq0oe_Nusa\ Penida\ 1.webp);
+    width: 100%;
+    background-
+    height: 100hv;
+    background-size: cover;
+    padding: 50px 0;
+    opacity: 0.35;
+}*/
+
+#aboutus{
+    
+   padding: 30px 100px;
+}
+
+#aboutus{
+    content: '';
+    background-image: url(images/09\ \ Twin-Lake-Wanagiri-spot.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;       /*---mn methnt 'absolute dala tibbe ethkot mata contact us penn na---*/
+    width: 100%;
+    height: 100%;
+    /*opacity: 0.8;*/
+}
+
+h1{
+   color: #10044a;
+    font-size: 80px;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+
+.item-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 70px;
+    font-size: 13px;
+    font-weight: 300;
+    
+    opacity: 100%;
+    
+}
+.item{
+
+    background:  #08268aa4;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 300;
+    transition: background 0.5s, transform 0.5;
+    opacity: 100%;
+    padding: 40px;
+}
+.item:hover{
+    background:rgba(10, 11, 84, 0.773);
+    transform: translateY(-10px);
+}
+
+
+.item h3{
+    color: bisque;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.item p{
+    padding: 20px;
+    color: rgb(214, 156, 85);
+}
+
+
+/*------------------------contct us----------------------*/
+/*
+#contactus{
+    padding: 80px 0;
+    color: rgb(210, 60, 60);
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact-col-1{
+    margin-left: 70%;
+    flex-basis: 35%;
+}
+.contact-col-2{
+    flex-basis: 60%;
+    margin-top: -40%;
+    margin-left: 20px;
+}
+*/
+#contactus {
+    background: #033d47;
+    padding: 80px 0;
+    color: rgb(210, 60, 60);
+    font-weight: 900;
+    font-size: 15px;
+}
+
+#contactus h1 {
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-col-1, .contact-col-2 {
+    flex-basis: 45%;
+    margin-top: 20px;
+}
+
+.contact-col-1 {
+    order: 1;
+}
+
+.contact-col-2 {
+    order: 2;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 0px;
+}
+
+.copyright p i{
+    color: #ff004f;
+}
+
+.fa-regular.fa-copyright{
+    color: #fff;
+}
