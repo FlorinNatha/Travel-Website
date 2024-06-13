@@ -82,10 +82,18 @@ nav ul li a:hover::after{
     margin-left:50%;
     font-size: 40px;
 }
-
+.header-text h2{
+    font-family: "Spicy Rice", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 300px;
+} 
 
 
 .header-text p span{
+     font-family: "Spicy Rice", serif;
+  font-weight: 400;
+  font-style: normal;
     color: #ff004f;
     font-style: italic;
     font-size: 50px;
@@ -98,7 +106,7 @@ nav ul li a:hover::after{
 
 
 #destinations{
-    background: #033d47;
+    background: #8ef6e4;
     /*background: #020600;*/
     padding: 50px 0;
 }
@@ -111,6 +119,10 @@ nav ul li a:hover::after{
 
 .subtitle{
     color: #fff;
+    font-family: "Spicy Rice", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
 }
 .d01{
     display: grid;
@@ -189,12 +201,29 @@ nav ul li a:hover::after{
 }
 
 .layer{
-    background-color: rgba(134, 220, 205, 0.836);
+    background-color: #fdfdcb;
     width: 100%;
-    height: 450px;
+    height: 150px;
 }
 
-
+.layer h3{
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.layer p{
+    padding: 20px;
+}
+.layer button{
+    padding: 5px;
+    margin-left: 50px;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: #f4aeba;
+}
+.layer button:hover{
+    background-color: #ec729c;
+}
 
 /*-----------------------About Us--------------------------------------------------------------------------------*/
 
@@ -226,10 +255,13 @@ nav ul li a:hover::after{
 }
 
 h1{
-   color: #10044a;
+   color: black;
     font-size: 80px;
-    font-family: sans-serif;
+    
     text-align: center;
+    font-family: "Spicy Rice", serif;
+  font-weight: 400;
+  font-style: normal;
     
 }
 
